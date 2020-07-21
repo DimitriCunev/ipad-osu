@@ -11,3 +11,4 @@ in your ipad -
 go to localhost:4400 and make sure PC and ipad are on the same network.
 
 
+works via socket.io and robotjs
