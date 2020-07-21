@@ -12,3 +12,5 @@ go to localhost:4400 and make sure PC and ipad are on the same network.
 
 
 works via socket.io and robotjs
+
+to change sensivity go to logic.js and change mouse property scaleX and scaleY
