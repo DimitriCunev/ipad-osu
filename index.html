@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+    body {
+  margin: 0;
+  overscroll-behavior: none;
+}
+    
+    canvas {
+      margin:auto;
+      
+      position: absolute;
+    }
+
+    textarea,input,select{
+      border-radius: 4px;
+      border: 2px solid #bdc3c7;
+      background-color: #202531;
+      color:#cbcdd2;
+      display: block;
+      cursor: text;
+      overflow: hidden;
+      outline:none;
+    }
+    
+
+    </style>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+        <script src ="socket.io-client.js"></script>
+        <script src ="logic.js"></script>
+    </head>
+    <body>
+
+    
+      <script>
+      document.body.onmousedown = function(e) { if (e.button === 1) return false; }//ye
+      document.addEventListener('contextmenu', event => event.preventDefault());
+      window.addEventListener("touchmove", function(event) {event.preventDefault();}, {passive: false} );
+      </script>
+    </body>
+  </html>
+  
