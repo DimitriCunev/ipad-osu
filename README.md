@@ -1,5 +1,5 @@
 # ipad-osu
-Play osu with you apple pen
+Play osu with your apple pen
 
 requires node 10.18.0
 
